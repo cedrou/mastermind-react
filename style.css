@@ -1,0 +1,66 @@
+﻿body {
+    background-color: #aaa;
+    margin: 10px;
+}
+
+.codedigit {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.codedigit.value0 { background-color: red; }
+.codedigit.value1 { background-color: yellow; }
+.codedigit.value2 { background-color: green; }
+.codedigit.value3 { background-color: blue; }
+.codedigit.value4 { background-color: orange; }
+.codedigit.value5 { background-color: whitesmoke; }
+.codedigit.value6 { background-color: purple; }
+.codedigit.value7 { background-color: pink; }
+
+.code {
+	background-color: #ddd;
+    height: 40px;
+}
+
+.matches {
+    margin: 5px;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.match {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.match.positionMatch {
+	background-color: black;
+}
+.match.colorMatch {
+	background-color: white;
+}
+
+.guess {
+    height: 40px;
+}
+
+.guess .code {
+    display: inline-block;
+}
+
+.controlbar {
+	background-color: grey;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
